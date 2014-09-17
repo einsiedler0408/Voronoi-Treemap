@@ -1,0 +1,12 @@
+﻿<Window x:Class="Voronoi__Treemap.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lava="clr-namespace:Lava.Visual;assembly=Lava.WPF"
+        Title="MainWindow" Height="960" Width="960">
+    <Grid>
+        <lava:PanAndZoomViewer MinimumZoom="1" MaximumZoom="10" >
+            <lava:Display x:Name="Display" Background="gray"></lava:Display>
+        </lava:PanAndZoomViewer>
+        
+    </Grid>
+</Window>
